@@ -12,8 +12,8 @@ var raqam = prompt("Passport raqamingiznikiriting ");
 console.log("Passport:" + raqam);
 prompt("Qayerga bormoqchisiz");
 let som = +prompt("Mablag'izni kiriting");
-pulingiz = 1260 * 11170;
-if ((som) => pulingiz) {
+let pulingiz = 1260 * 11170;
+if (som >= pulingiz) {
   alert("Sizga yoqimli xordiq tilaymiz");
 } else if (som < pulingiz) {
   alert(
