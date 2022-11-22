@@ -11,7 +11,7 @@ if (som >= pulingiz) {
   alert("Sizga yoqimli xordiq tilaymiz");
 } else if (som < pulingiz) {
   alert(
-    Math.floor(Math.random() * 31) +
+    Math.floor(Math.random() * 27) +3+
       "  kundan so'ng qayta saytimizdan foydalanishingiz mumkin "
   );
 } else {
